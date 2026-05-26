@@ -1,0 +1,24 @@
+<OrderViewRS>
+
+    <Order>
+        
+        <OrderID>ORD001</OrderID>
+
+        <Passenger type="Adult">
+            <FirstName>Poornima</FirstName>
+            <LastName>P</LastName>
+        </Passenger>
+
+        <Flight>
+            <FlightNumber>AI202</FlightNumber>
+            <Departure>TRV</Departure>
+            <Arrival>DEL</Arrival>
+        </Flight>
+
+        <Price currency="INR">
+            <TotalAmount>8500</TotalAmount>
+        </Price>
+
+    </Order>
+
+</OrderViewRS>

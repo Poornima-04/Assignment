@@ -1,0 +1,91 @@
+# =====================================
+# FULL ORDER QUERY
+# =====================================
+
+query {
+  order {
+
+    orderId
+
+    passenger {
+      firstName
+      lastName
+      passengerType
+    }
+
+    flight {
+      flightNumber
+      departure
+      arrival
+    }
+
+    price {
+      totalAmount
+      currency
+    }
+
+  }
+}
+
+
+# =====================================
+# QUERY ONLY ORDER ID
+# =====================================
+
+query {
+  order {
+    orderId
+  }
+}
+
+
+# =====================================
+# QUERY ONLY PASSENGER DETAILS
+# =====================================
+
+query {
+  order {
+
+    passenger {
+      firstName
+      lastName
+    }
+
+  }
+}
+
+
+# =====================================
+# QUERY ONLY FLIGHT DETAILS
+# =====================================
+
+query {
+  order {
+
+    flight {
+      flightNumber
+      departure
+      arrival
+    }
+
+  }
+}
+
+
+# =====================================
+# QUERY XML ATTRIBUTES
+# =====================================
+
+query {
+  order {
+
+    passenger {
+      passengerType
+    }
+
+    price {
+      currency
+    }
+
+  }
+}
